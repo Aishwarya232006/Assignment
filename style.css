@@ -224,3 +224,51 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow for depth */
     margin: 0;
 }
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #34495e;
+}
+
+/* Heading Styling */
+h2 {
+  color:#34495e;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Grid Container Styling */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #34495e;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  color: #ecf0f1;
+}
+
+
+.grid-item {
+  background-color:lightblue;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1em;
+  text-align: center;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+
+.grid-item:hover {
+  background-color: lightcoral;
+  transform: scale(1.05);
+}
+
